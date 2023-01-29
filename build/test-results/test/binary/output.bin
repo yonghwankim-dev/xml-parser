@@ -1,27 +1,80 @@
-type: root, 
-child: [{xmlNodeType: ELEMENT,
-         tagName: html,
-!         attribute: [lang="ko"],
-(         child: [{xmlNodeType: ELEMENT,
-                  tagName: body,
-                  attribute: [],
-0                 child: [{xmlNodeType: ELEMENT,
-%                         tagName: p,
-(                         attribute: [],
-8                         child: [{xmlNodeType: ELEMENT,
-/                                 tagName: img,
-C                                 attribute: [src="codesquard.kr"],
-,                                 child: [],
-0                                 innerText: []}
-)                , {xmlNodeType: ELEMENT,
-.                                 tagName: br,
-0                                 attribute: [],
-,                                 child: [],
-0                                 innerText: []}
-                ],
--                         innerText: [BOOST]}
-            ],
-                  innerText: []}
-        ],
-         innerText: []}
-    ]
+!{type : TAG_OPENING, value : <}
+{type : TEXT, value : span}
+!{type : TAG_CLOSING, value : >}
+{type : TEXT, value : hello}
+({type : TAG_CLOSE_OPENING, value : </}
+{type : TEXT, value : span}
+!{type : TAG_CLOSING, value : >}
+!{type : TAG_OPENING, value : <}
+{type : TEXT, value : span}
+{type : TEXT, value : lang}
+ {type : ASSIGNMENT, value : =}
+({type : ATTRIBUTE_VALUE, value : "ko"}
+!{type : TAG_CLOSING, value : >}
+{type : TEXT, value : hello}
+({type : TAG_CLOSE_OPENING, value : </}
+{type : TEXT, value : span}
+!{type : TAG_CLOSING, value : >}
+!{type : TAG_OPENING, value : <}
+{type : TEXT, value : span}
+{type : TEXT, value : lang}
+ {type : ASSIGNMENT, value : =}
+({type : ATTRIBUTE_VALUE, value : "ko"}
+{type : TEXT, value : class}
+ {type : ASSIGNMENT, value : =}
+){type : ATTRIBUTE_VALUE, value : "aaa"}
+!{type : TAG_CLOSING, value : >}
+{type : TEXT, value : hello}
+({type : TAG_CLOSE_OPENING, value : </}
+{type : TEXT, value : span}
+!{type : TAG_CLOSING, value : >}
+!{type : TAG_OPENING, value : <}
+{type : TEXT, value : p}
+!{type : TAG_CLOSING, value : >}
+{type : TEXT, value : BOOST}
+!{type : TAG_OPENING, value : <}
+{type : TEXT, value : img}
+{type : TEXT, value : src}
+ {type : ASSIGNMENT, value : =}
+3{type : ATTRIBUTE_VALUE, value : "codesquard.kr"}
+!{type : TAG_CLOSING, value : >}
+({type : TAG_CLOSE_OPENING, value : </}
+{type : TEXT, value : img}
+!{type : TAG_CLOSING, value : >}
+({type : TAG_CLOSE_OPENING, value : </}
+{type : TEXT, value : p}
+!{type : TAG_CLOSING, value : >}
+(< 태그가 닫히지 않았습니다.
+7최상위 요소가 정의되지 않았습니다. hello+span 태그가 닫히지 않았습니다.
+4닫는 태그의 이름이 다릅니다. span != p
+
+6닫는 태그의 이름이 다릅니다. fff != span
+
++올바른 XML 형식이 아닙니다. : ?
+type: root, 
+child: [{xmlNodeType: ELEMENT,
+         tagName: html,
+!         attribute: [lang="ko"],
+(         child: [{xmlNodeType: ELEMENT,
+                  tagName: body,
+                  attribute: [],
+0                 child: [{xmlNodeType: ELEMENT,
+%                         tagName: p,
+(                         attribute: [],
+8                         child: [{xmlNodeType: ELEMENT,
+/                                 tagName: img,
+C                                 attribute: [src="codesquard.kr"],
+,                                 child: [],
+0                                 innerText: []}
+)                , {xmlNodeType: ELEMENT,
+.                                 tagName: br,
+0                                 attribute: [],
+,                                 child: [],
+0                                 innerText: []}
+                ],
+-                         innerText: [BOOST]}
+            ],
+                  innerText: []}
+        ],
+         innerText: []}
+    ]
