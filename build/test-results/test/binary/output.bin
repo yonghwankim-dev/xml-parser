@@ -1,0 +1,27 @@
+type: root, 
+child: [{xmlNodeType: ELEMENT,
+         tagName: html,
+!         attribute: [lang="ko"],
+(         child: [{xmlNodeType: ELEMENT,
+                  tagName: body,
+                  attribute: [],
+0                 child: [{xmlNodeType: ELEMENT,
+%                         tagName: p,
+(                         attribute: [],
+8                         child: [{xmlNodeType: ELEMENT,
+/                                 tagName: img,
+C                                 attribute: [src="codesquard.kr"],
+,                                 child: [],
+0                                 innerText: []}
+)                , {xmlNodeType: ELEMENT,
+.                                 tagName: br,
+0                                 attribute: [],
+,                                 child: [],
+0                                 innerText: []}
+                ],
+-                         innerText: [BOOST]}
+            ],
+                  innerText: []}
+        ],
+         innerText: []}
+    ]
